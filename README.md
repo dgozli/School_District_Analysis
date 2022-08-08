@@ -86,4 +86,7 @@ After cleaning the data:
 
 ### Summary 
 
-With respect to the overall findings, such as the average scores in the entire district, removing the data of the 9th-grade students from Thomas High School did not make a big impact. However, when we look more closely at the data and sub-categories, we find noticeable impact of the removal. First, in the $631-645 spending category, there was a drop in the overall passing percentage from 63% to 56%. Second, in the school-size category of Medium (1000-1999), overall passing percentage dropped from 91% to 85%.Third, the percentage of passes dropped for Charter schools from 90% to 87%, while leaving the district schools category unaffected. Fourth, and finally, removing one of the 15 school's 9th grade scores reduced the average overall scores only by a negligble .1% (from 82.5% to 82.4%).
+First, with respect to the overall findings, such as the average scores in the entire district, removing the data of the 9th-grade students from Thomas High School did not make a big impact. Even when we look only at 9th grade students' average scores, cleaning the data reduced the average overall scores only by a negligble .1% (from 82.5% to 82.4%). However, when we look more closely at the data and sub-categories, we find noticeable impact of the removal. 
+- In the $631-645 spending category, there was a drop in the overall passing percentage from 63% to 56%. 
+- In the school-size category of Medium (1000-1999), overall passing percentage dropped from 91% to 85%. 
+- Finally, the percentage of passes dropped for Charter schools from 90% to 87%, while leaving the district schools category unaffected. 
