@@ -2,7 +2,7 @@
 
 ## Overview
 
-We had initially made a DataFrame that combined student data and school data. We conducted analyses on the average scores (math and reading) as well as the average number of students passing, based on a number of independent variables: school, grade, school budget (spending per student), school size, and school type (charter vs. district). We then repeated and modified our analyses after we were asked to remove the scores of the 9th-grade students at Thomas High School, due to possible cheating. The modified analyses appear in the Jupyter Notebook file beginning at cell 54. 
+We had initially made a DataFrame that combined student data and school data. We conducted analyses on the average scores (math and reading) as well as the average number of students passing, based on a number of independent variables: school, grade, school budget (spending per student), school size, and school type (charter vs. district). We then repeated and modified our analyses after we were asked to remove the scores of the 9th-grade students at Thomas High School, due to probable cheating.
 
 ## Results
 
@@ -26,45 +26,60 @@ After cleaning the data
 
 ### School Summary Results
 
-[[
-
-After removing math and reading scores of 9th grade students from Thomas High School, the school's overall percentage of passing students dropped very slightly from 90.9% to 90.6%. However, Thomas High School still remained 2nd highest ranking school in terms of the percentage of overall passing students (for both math and reading), as shown in the tables below.
+After removing math and reading scores of 9th grade students from Thomas High School, the school's overall percentage of passing students changed from 90.9% to 65%. As a consequence, Thomas High School's ranking dropped from 2nd highest to 8th (as shown in tables below).
 
 Before cleaning the data:
 
-![School_Summaries_Before](https://user-images.githubusercontent.com/105169537/183478074-ca8dc8ea-8dea-448d-a5fe-954935ebef0b.png)
+![School Ranking_Before](https://user-images.githubusercontent.com/105169537/183497052-9af71765-00d4-4729-81f0-87cfe71476bd.png)
 
 After cleaning the data:
 
-![School_Summaries_After](https://user-images.githubusercontent.com/105169537/183478056-48c2dcf1-a0df-4b03-9265-b33b71ec76d4.png)
+![School Ranking_After](https://user-images.githubusercontent.com/105169537/183497068-33a2340f-9ba4-4329-b695-0c11b412c35e.png)
 
 ### Scores by grade
 
-When we group the data based on schools and grades, we see the effect of removing the scores of the 9th grade students from Thomas High School, because the removals are contained in the two cells. With this arrangement, everything else remains unaffected by the removal.
+When we group the data based on schools and grades, we see the effect of removing the scores of the 9th grade students from Thomas High School, because the removals are contained in the one cell (in each table). With this arrangement, everything else remains unaffected by the removal.
 
-Reading scores by school, by grade level after cleaning the data:
+Math scores by school, by grade level after cleaning the data:
 
-![Screen Shot 2022-08-08 at 1 38 46 PM (2)](https://user-images.githubusercontent.com/105169537/183480141-a888abb9-6827-43c0-a9b2-812e2592b1c2.png)
+![Screen Shot 2022-08-08 at 3 34 25 PM](https://user-images.githubusercontent.com/105169537/183500395-cd03cb0c-c3ab-4dd7-b837-fccf94ab16c1.png)
 
-Math scores by school, by grade after cleaning the data:
+Reading scores by school, by grade after cleaning the data:
 
-![Screen Shot 2022-08-08 at 1 38 52 PM (2)](https://user-images.githubusercontent.com/105169537/183480225-4c1f6fa5-a813-4d23-b26c-841beb41ced2.png)
+![Screen Shot 2022-08-08 at 3 37 31 PM](https://user-images.githubusercontent.com/105169537/183500419-5791f8db-f41f-462b-a909-513dfa366e6e.png)
 
 ### Scores by school spending
 
-After cleaning the data, we did not see any change in the average scores and percentage of overall passing, even though we do see a drop in the number of students passing math and reading in the $631-645 spending category, to which Thomas High School belongs.
+After cleaning the data, we did not find a noticable change in the average scores, though the percentage of overall passing dropped, in the $631-645 spending category, to which Thomas High School belongs. The drop was from 63% to 56%.
 
 Before cleaning the data:
 
-![Spending_Before](https://user-images.githubusercontent.com/105169537/183483060-b1d1d1c5-519e-4301-bd90-14bde28a448f.png)
+![Screen Shot 2022-08-08 at 3 40 10 PM](https://user-images.githubusercontent.com/105169537/183500855-d4510f77-42ce-431e-a392-5b2fa8a44c94.png)
 
 After cleaning the data:
 
-![Spending_After](https://user-images.githubusercontent.com/105169537/183483083-e05d2f9f-2b4b-4fc2-b4a6-a6ef51a509ce.png)
+![Screen Shot 2022-08-08 at 3 40 20 PM](https://user-images.githubusercontent.com/105169537/183500862-b4164dfc-ad49-45d3-8e2c-6ec03327bdb3.png)
 
 ### Analysis by school size
 
-Cleaning the data similarly did not have a visible impact on our analysis of grades based on school size. Only the number of students passing
+Cleaning the data impacted our analysis of grades based on school size, in the category to which Thomas High School belonged (Medium (1000-1999), where the % Overall Passing dropped from 91% to 85%.
 
+Before cleaning the data:
+
+![Screen Shot 2022-08-08 at 3 44 07 PM](https://user-images.githubusercontent.com/105169537/183503565-599d070a-c7e9-44de-b985-de8d4e967f0f.png)
+
+After cleaning the data: 
+
+![Screen Shot 2022-08-08 at 3 43 54 PM](https://user-images.githubusercontent.com/105169537/183503583-57324002-2821-4911-a786-52fea804eafa.png)
 
 ### Scores by school type
+
+Since Thomas High School belonged to the category of charter schools, cleaning the data reduced the overall passing percentage for Charter schools by 3% (from 90% to 87%), while leaving the district schools category unaffected.
+
+Before cleaning the data:
+
+![Screen Shot 2022-08-08 at 4 00 00 PM](https://user-images.githubusercontent.com/105169537/183511093-066ed79f-f590-46f7-955e-c40e65337053.png)
+
+After cleaning the data:
+
+![Screen Shot 2022-08-08 at 4 00 33 PM](https://user-images.githubusercontent.com/105169537/183511120-89363bfc-8bdc-46af-ac8f-dac715b304d1.png)
