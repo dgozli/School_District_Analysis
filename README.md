@@ -6,3 +6,12 @@ We had initially made a DataFrame that combined student data and school data. We
 
 ## Results
 
+### district summary results
+
+After removing math and reading scores of 9th grade students from Thomas High School, there was a negligble drop in the average math and reading scores (less than 0.1%), though the percentage of students passing math, reading, and both dropped by around 1% as the tables below show.
+
+Before cleaning the data
+![District Summary_Before](https://user-images.githubusercontent.com/105169537/183466964-3dad1594-caec-439e-ac6c-a1577fee9977.png)
+
+After cleaning the data
+![District Summary_After](https://user-images.githubusercontent.com/105169537/183467157-fe363339-2941-4e37-9b3e-942df328fb28.png)
