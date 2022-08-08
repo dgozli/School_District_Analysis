@@ -8,7 +8,7 @@ We had initially made a DataFrame that combined student data and school data. We
 
 ### District Summary Results
 
-After removing math and reading scores of 9th grade students from Thomas High School, we observed the following: 
+After removing math and reading scores of 9th grade students from Thomas High School, we observed the following changes in the overall findings. Since the portion of the data removed was relatively small in the overall data set these changes are relatively small. 
 
 - A negligble decrease in average math score (about 0.1%), from 79.0% to 78.9%
 - No visible change in the average reading score, remaining at 81.9%
@@ -83,3 +83,7 @@ Before cleaning the data:
 After cleaning the data:
 
 ![Screen Shot 2022-08-08 at 4 00 33 PM](https://user-images.githubusercontent.com/105169537/183511120-89363bfc-8bdc-46af-ac8f-dac715b304d1.png)
+
+### Summary 
+
+With respect to the overall findings, such as the average scores in the entire district, removing the data of the 9th-grade students from Thomas High School did not make a big impact. However, when we look more closely at the data and sub-categories, we find noticeable impact of the removal. First, in the $631-645 spending category, there was a drop in the overall passing percentage from 63% to 56%. Second, in the school-size category of Medium (1000-1999), overall passing percentage dropped from 91% to 85%.Third, the percentage of passes dropped for Charter schools from 90% to 87%, while leaving the district schools category unaffected. Fourth, and finally, removing one of the 15 school's 9th grade scores reduced the average overall scores only by a negligble .1% (from 82.5% to 82.4%).
